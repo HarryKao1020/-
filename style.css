@@ -1,0 +1,29 @@
+/* *{
+    border: 1px solid rgb(219, 105, 105);
+} */
+
+
+
+
+
+.inputBar{
+    width: 100%;
+    display: flex;
+
+}
+.inputBar>div{
+    margin-left: 20px;
+    text-align: center;
+}
+
+input{
+    text-align: center;
+}
+
+#stName{
+    width: 120px;
+}
+#putprice,#putnum,#callprice,#callnum,#nowprice,#unrealizedNum,#realizedNum{
+    width: 80px;
+
+}
