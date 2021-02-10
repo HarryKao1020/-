@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>交易紀錄表</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="inputBar">
+        <div class="putDate">
+            <label for="putdate">買進日期:</label>
+            <br>
+            <input type="date" name="putdate" id="putdate">
+        </div>
+        <div class="callDate">
+            <label for="calldate">賣出日期:</label>
+            <br>
+            <input type="date" name="calldate" id="calldate">
+        </div>
+        <div class="name">
+            <label for="stName">股票:</label>
+            <br>
+            <input type="search" name="stName" id="stName">
+        </div>
+
+        <!-- 買賣價格、張數 -->
+        <div class="putPrice">
+            <label for="putprice">買進價格:</label>
+            <br>
+            <input type="search" name="putprice" id="putprice">
+        </div>
+        <div class="putNum">
+            <label for="putnum">買進張數:</label>
+            <br>
+            <input type="search" name="putnum" id="putnum">
+        </div>
+        <div class="callPrice">
+            <label for="callprice">賣出價格:</label>
+            <br>
+            <input type="search" name="callprice" id="callprice">
+        </div>
+        <div class="callPrice">
+            <label for="callnum">賣出張數:</label>
+            <br>
+            <input type="search" name="callnum" id="callnum">
+        </div>
+        
+        <!-- 損益狀況 -->
+        <div class="nowPrice">
+            <label for="nowprice">目前股價:</label>
+            <br>
+            <input type="search" name="nowprice" id="nowprice">
+        </div>
+
+        <div class="unrealized">
+            <label for="unrealizedNum">未實現損益%:</label>
+            <br>
+            <input type="search" name="unrealizedNum" id="unrealizedNum">
+        </div>
+
+        <div class="realized">
+            <label for="realizedNum">已實現損益%:</label>
+            <br>
+            <input type="search" name="realizedNum" id="realizedNum">
+        </div>
+
+        <!-- 原因 -->
+        <div class="putReason">
+            <label for="putreason">買進原因</label>
+            <br>
+            <input type="textarea" name="putreason" id="putreason">
+        </div>
+
+        <div class="callReason">
+            <label for="callreason">賣出原因</label>
+            <br>
+            <input type="search" name="callreason" id="callreason">
+        </div>
+      
+    </div>
+</body>
+</html>
